@@ -1,0 +1,71 @@
+render json through controller
+connect the frontend to backend
+add validation
+add seeds in database
+no restaurant introduction but plain food intro 
+set up login? a:b page
+
+
+
+after implement JWT, I will want to implement a jumboron, kind of working on the user interface
+
+
+set up signup route and reducer
+set up myOrder component and myFavorite component
+rendering dish list for the above two component
+add button for order and cancel dishes(create order reducers)
+add loading? a:b page
+ADD PICTURE FOR SEEDS FILE
+
+
+
+To create a userContainer: which includes: loginpage and order container 
+questions!!! how to persist user_id to the page so even you refresh it, you are still logged in? (anyways,
+ so far, I will not use a persist, so once you refresh you will have to reinput the user information)
+
+set up a route in the backend for people to signup and login
+and the async operation in the frontend will give be responsible to display whether you login or not 
+.then(........login or not ? a:b)(once I post username and password correctly there and get a succesful login message
+the backend should render a user information when I can use to fill up my order component)
+
+Error message!!!
+However, once I got a no-match response, I should add a component call errorDisplay block, and render the error message 
+or alert error message(will be better!!!)there
+
+
+
+
+write reducer and action
+finish reading the whole react-bootstrap doc and start to apply it to my project
+
+
+
+
+
+URL: 
+
+post /users  --create users
+get /users/:id  --check all the information
+
+get /menu(direct to /dishes) --render menu component
+
+post user_id/favorites --add favorites to list
+get user_id//favorites --check all your favorite list
+get user_id//favorites/:id  -- check a certain favorite list
+
+get user_id//orders check previous orders
+post user_id//orders/:id --submit your own order and change the order status to submit succesfully and waited to be served
+
+     
+
+
+improve myself : selenium- learn web scraping
+
+
+ABOUT THE BLOG, I CAN WRITE LIKE CLIENT-SIDE AUTHENTICATION/REACT-bootstrap JWT
+
+on the user_params problem, I just permit everything instead of require a user class
+
+serializer and action too much repetition!!!!!!!
+I want to go through the JWT first, after that, I will decide if I want to ask signup route to share the same form as login, but pass a different
+handleSubmit method there
