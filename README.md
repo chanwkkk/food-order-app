@@ -1,5 +1,9 @@
 # food-order-app
 
+## Introduction
+
+This is a project that allows people to order food online.  It is a combination of a react-based frontend and a rails API backend.
+
 ## Installation
 
 ### Set up the backend
