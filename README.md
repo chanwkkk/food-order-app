@@ -16,7 +16,7 @@ And then go inside the folder by typing this in your terminal:
 cd food-order-app
 ```
 
-To view the page correctly, you have to run the application server first. So go to the backedn folder: 
+To view the page correctly, you have to run the application server first. So go to the backend folder: 
 
 ```
 cd ghibli-movies-backend
@@ -64,11 +64,8 @@ cd frontend
 
 Then run `npm install` to install all packages and `npm start` to start to see the website.
 
+You can sign up, log in, go to the `Homepage` to order food and go to `My orders` page to check out your order histories and submit your current order. 
 
 
-
-
-
-Once the server is ready, open the `index.html` within folder `ghibli-movies-frontend` on your browser and then you can see, create and delete movies!
 
 
