@@ -23,7 +23,7 @@ cd food-order-app
 To view the page correctly, you have to run the application server first. So go to the backend folder: 
 
 ```
-cd ghibli-movies-backend
+cd food-order-backend
 ```
 
 And then install all missing gems by input:
